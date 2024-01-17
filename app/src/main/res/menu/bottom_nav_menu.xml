@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--하단 메뉴바 작성-->
+    <item
+        android:id="@+id/navigation_realhome"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="홈"
+        />
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="?attr/actionModeCopyDrawable"
+        android:title="발작메모" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/baseline_calendar_month_24"
+        android:title="달력" />
+    <item
+        android:id="@+id/navigation_timer"
+        android:icon="@android:drawable/ic_lock_idle_alarm"
+        android:title="타이머" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="사용자정보" />
+
+
+</menu>

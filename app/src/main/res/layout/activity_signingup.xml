@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signinup_bg"
+    tools:context=".SigningUpActivity">
+
+    <ImageView
+        android:id="@+id/title_text"
+        android:layout_width="340dp"
+        android:layout_height="154dp"
+        android:background="@drawable/title_text"
+        android:contentDescription="@string/title_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.167" />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="344dp"
+        android:background="@drawable/calmdown_icon"
+        android:contentDescription="@string/icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="274dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="188dp"
+        android:background="@drawable/sign_btn_login"
+        android:elevation="10dp"
+        android:fontFamily="@font/noto_sans"
+        android:text="@string/btn_login_text"
+        android:textAlignment="center"
+        android:textAppearance="@style/btn_login_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/join"
+        android:layout_width="274dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="110dp"
+        android:background="@drawable/sign_btn_join"
+        android:fontFamily="@font/noto_sans"
+        android:textAlignment="center"
+        android:textAppearance="@style/btn_join_text"
+        android:text="@string/btn_join_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/icon"
+/>
+
+    <ImageView
+        android:layout_width="158dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/sns_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/join"
+        tools:ignore="ContentDescription" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

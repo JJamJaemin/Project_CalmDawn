@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JoinActivity"
+    android:background="@drawable/bg_dark">
+
+    <ImageView
+        android:id="@+id/title_text"
+        android:layout_width="340dp"
+        android:layout_height="154dp"
+        android:background="@drawable/title_text"
+        android:contentDescription="@string/title_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.167" />
+
+    <View
+        android:id="@+id/rectangle_1"
+        android:layout_width="312dp"
+        android:layout_height="58dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/rectangle_login_editview"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/rectangle_3"
+        android:layout_width="312dp"
+        android:layout_height="58dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rectangle_login_editview"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_2"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_2" />
+
+    <View
+        android:id="@+id/rectangle_4"
+        android:layout_width="312dp"
+        android:layout_height="58dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/rectangle_login_editview"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_2"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_3" />
+
+    <View
+        android:id="@+id/rectangle_5"
+        android:layout_width="312dp"
+        android:layout_height="58dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rectangle_login_editview"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_4"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_4" />
+
+    <View
+        android:id="@+id/rectangle_6"
+        android:layout_width="312dp"
+        android:layout_height="58dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/rectangle_login_editview"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_5"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_5" />
+
+    <View
+        android:id="@+id/rectangle_2"
+        android:layout_width="312dp"
+        android:layout_height="58dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/rectangle_login_editview"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_1"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_1" />
+
+    <EditText
+        android:id="@+id/et_phonenum"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:background="@null"
+        android:ems="10"
+        android:hint="@string/et_phonenum"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        android:textColor="@color/black"
+        android:textColorHint="@color/moregray"
+        android:textCursorDrawable="@null"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.325"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_1" />
+
+    <EditText
+        android:id="@+id/et_age"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="17dp"
+        android:background="@null"
+        android:ems="10"
+        android:hint="@string/et_age"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textColorHint="@color/moregray"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/et_name"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et_name"
+        app:layout_constraintTop_toBottomOf="@+id/et_name" />
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/man_checkbox"
+        android:layout_width="78dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/gender_man"
+        android:textColor="@color/black"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20sp"
+        app:buttonTint="@color/btn_color"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_4"
+        app:layout_constraintTop_toBottomOf="@+id/et_age"
+        tools:ignore="TextSizeCheck" />
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/woman_checkbox"
+        android:layout_width="78dp"
+        android:layout_height="48dp"
+        android:text="@string/gender_woman"
+        android:textColor="@color/black"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20sp"
+        app:buttonTint="@color/btn_color"
+        app:layout_constraintEnd_toEndOf="@+id/et_age"
+        app:layout_constraintStart_toEndOf="@+id/man_checkbox"
+        app:layout_constraintTop_toTopOf="@+id/man_checkbox"
+        tools:ignore="TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/et_emphone"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="19dp"
+        android:background="@null"
+        android:ems="10"
+        android:hint="@string/et_emphone"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        android:textColor="@color/black"
+        android:textColorHint="@color/moregray"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/woman_checkbox"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/man_checkbox"
+        app:layout_constraintTop_toBottomOf="@+id/man_checkbox" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="17dp"
+        android:background="@null"
+        android:ems="10"
+        android:hint="@string/et_password"
+        android:importantForAutofill="no"
+        android:inputType="numberPassword"
+        android:textColor="@color/black"
+        android:textColorHint="@color/moregray"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/et_emphone"
+        app:layout_constraintStart_toStartOf="@+id/et_emphone"
+        app:layout_constraintTop_toBottomOf="@+id/et_emphone" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="17dp"
+        android:background="@null"
+        android:ems="10"
+        android:hint="@string/et_name"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="@color/moregray"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/et_phonenum"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et_phonenum"
+        app:layout_constraintTop_toBottomOf="@+id/et_phonenum" />
+
+    <Button
+        android:id="@+id/validateButton"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/btn_blue_uni"
+        android:fontFamily="@font/inter_medium"
+        android:text="@string/validateButton"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_1"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_1"
+        tools:ignore="VisualLintOverlap" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="201dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/btn_blue"
+        android:fontFamily="@font/noto_sans"
+        android:text="@string/btn_register"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

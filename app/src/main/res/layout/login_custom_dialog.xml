@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="1000px"
+    android:layout_height="1200px"
+    android:background="@drawable/custom"
+    tools:ignore="TextSizeCheck">
+
+    <TextView
+        android:id="@+id/id_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/noto_sans"
+        android:text="아이디"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/password_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/noto_sans"
+        android:text="비밀번호"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_id" />
+
+    <EditText
+        android:id="@+id/edit_id"
+        android:layout_width="251dp"
+        android:layout_height="48dp"
+        android:fontFamily="@font/noto_sans"
+        android:hint="010-0000-0000"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        android:textColor="#000000"
+        android:textColorHint="@color/moregray"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/id_text"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/id_text"
+        app:layout_constraintTop_toBottomOf="@+id/id_text" />
+
+    <EditText
+        android:id="@+id/edit_password"
+        android:layout_width="251dp"
+        android:layout_height="48dp"
+        android:fontFamily="@font/noto_sans"
+        android:hint="****"
+        android:inputType="numberPassword"
+        android:minHeight="48dp"
+        android:textColor="#000000"
+        android:textColorHint="@color/moregray"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/password_text"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/password_text"
+        app:layout_constraintTop_toBottomOf="@+id/password_text" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="259dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/btn_blue"
+        android:elevation="20dp"
+        android:fontFamily="@font/inter_medium"
+        android:shadowColor="#000000"
+        android:text="로그인"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_password" />
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/noto_sans"
+        android:text="전화번호로 로그인"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/id_found"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:fontFamily="@font/noto_sans"
+        android:text="@string/id_found"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/id_found2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/id_found2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/id_found2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="340dp"
+        android:fontFamily="@font/noto_sans"
+        android:text="@string/pw_found"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/id_found"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

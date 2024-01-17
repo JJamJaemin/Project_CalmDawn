@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">CalmDawn</string>
+    <string name="title_realhome">RealHome</string>
+    <string name="title_home">발작 메모</string>
+    <string name="title_calendar">Calendar</string>
+    <string name="title_timer">약 복용 알리미</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="msg_not_memo">저장된 메모가 없습니다.</string>
+    <string name="app2_name">Alarm</string>
+    <string name="change_time">시간 재설정</string>
+    <string name="on_alarm">알람 켜기</string>
+    <string name="et_age">나이</string>
+    <string name="et_phonenum">전화번호</string>
+    <string name="et_emphone">긴급연락처</string>
+    <string name="et_name">이름</string>
+    <string name="et_gender">성별</string>
+    <string name="validateButton">중복확인</string>
+    <string name="btn_register">회원가입</string>
+    <string name="title_real">발작일로부터</string>
+    <string name="calm_real">CalmDown</string>
+    <string name="down_real">한지</string>
+    <string name="day_count">D+1</string>
+    <string name="danger_text">발작 위험도 : </string>
+    <string name="info_text">꾸준히 약을 복용해주세요</string>
+    <string name="danger">위험</string>
+    <string name="login_title">CALMDOWN</string>
+    <string name="login_ment">ALL OF US</string>
+    <string name="gender_man">남성</string>
+    <string name="gender_woman">여성</string>
+    <string-array name="gender_options">
+        <item>남성</item>
+        <item>여성</item>
+    </string-array>
+    <string name="Login_suc">회원가입 되었습니다</string>
+    <string name="Login_fail">정보를 다시 한번 확인해주세요</string>
+    <string name="validateButton_fail">전화번호가 존재합니다.
+    이 번호로 로그인하시려면 Login을 눌러주세요.</string>
+    <string name="validateButton_suc">확인되었습니다.</string>
+    <string name="Login_add">을(를) 입력해주세요</string>
+    <string name="title_text">title_text</string>
+    <string name="icon">icon</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_join_text">전화번호로 가입</string>
+    <string name="btn_login_text">전화번호로 로그인</string>
+    <string name="id_found"><u>아이디 찾기</u></string>
+    <string name="pw_found"><u>비밀번호 찾기</u></string>
+    <string name="et_password">비밀번호</string>
+
+</resources>

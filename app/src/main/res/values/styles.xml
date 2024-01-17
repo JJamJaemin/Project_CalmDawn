@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="title_real">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="calm_real">
+        <item name="android:textSize">43sp</item>
+        <item name="android:textColor">#4052B0</item>
+    </style>
+    <style name="down_real">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#4052B0</item>
+    </style>
+
+    <style name="day_count">
+        <item name="android:textSize">96sp</item>
+        <item name="android:textColor">#2C3968</item>
+    </style>
+    <style name="danger_text">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="info_text">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="SpinnerDropDownItemStyle" parent="Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="btn_join_text">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#35469D</item>
+    </style>
+    <style name="btn_login_text">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+</resources>
